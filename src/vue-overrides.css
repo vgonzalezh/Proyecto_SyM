@@ -1,0 +1,33 @@
+/* Ajustes para navegación SPA de Vue Router */
+.view{display:block;scroll-margin-top:7.5rem}
+nav[aria-label="Principal"]{display:block;width:auto;order:2}
+nav[aria-label="Principal"] ul{flex-direction:row;flex-wrap:wrap}
+.menu-toggle,.burger{display:none}
+.cart{order:3;margin-left:.5rem}
+.global-error{max-width:1100px;margin:1.5rem auto}
+.loader{display:flex;align-items:center;justify-content:center;gap:1rem;padding:3rem}
+.field-error{display:block;color:#a3273b;font-size:.82rem;margin:.25rem 0 0}
+.field.is-invalid input,.field.is-invalid select,.field.is-invalid textarea{border-color:#b3263e;box-shadow:0 0 0 1px #b3263e}
+.field.is-valid input,.field.is-valid select{border-color:#39845a}
+.field input,.field select,.field textarea,.tools input,.tools select{max-width:100%;width:100%;padding:.65rem;border:1px solid #aaa;border-radius:8px;background:white;color:var(--ink);font:inherit}
+.v-enter-active,.v-leave-active{transition:opacity .2s}.v-enter-from,.v-leave-to{opacity:0}
+@media(max-width:760px){nav[aria-label="Principal"]{display:none;width:100%;order:4}nav[aria-label="Principal"] ul{flex-direction:column}.menu-toggle{display:block;position:absolute;opacity:0;pointer-events:none}.burger{display:block;order:3}.menu-toggle:checked~nav{display:block}.cart{order:2;margin-left:auto}}
+#app{display:contents}
+
+
+/* Sticker de ofertas: ahora funciona como acceso al catálogo filtrado */
+.sticker{
+  color:var(--ink);
+  text-decoration:none;
+  cursor:pointer;
+  z-index:2;
+  transition:filter .2s, box-shadow .2s;
+}
+.sticker:hover{
+  filter:brightness(1.03);
+  box-shadow:0 9px 0 var(--mauve), 0 12px 24px rgba(53,47,64,.18);
+}
+.sticker:focus-visible{
+  outline:3px solid var(--ink);
+  outline-offset:5px;
+}

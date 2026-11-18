@@ -1,0 +1,251 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "name": "Camiseta Básica",
+      "price": 45000,
+      "old": 55000,
+      "cat": "tops",
+      "img": "camiseta.jpg",
+      "imgs": [
+        "camiseta-detalle.jpg",
+        "camiseta.jpg"
+      ],
+      "badge": "Más vendido",
+      "sold": 1240,
+      "order": 3,
+      "colors": [
+        [
+          "Blanco",
+          "#ffffff"
+        ],
+        [
+          "Gris",
+          "#8a8a92"
+        ]
+      ],
+      "desc": "Manga corta, fabricada en 100% algodón de alta calidad para máxima suavidad y durabilidad."
+    },
+    {
+      "id": 2,
+      "name": "Pantalón Wide Leg",
+      "price": 89000,
+      "old": 0,
+      "cat": "bottoms",
+      "img": "jean-wide-leg.jpg",
+      "fit": "contain",
+      "badge": "",
+      "sold": 860,
+      "order": 2,
+      "colors": [
+        [
+          "Negro",
+          "#2a2a33"
+        ]
+      ],
+      "desc": "Jean de pierna ancha y tiro alto, cómodo para todo el día y fácil de combinar."
+    },
+    {
+      "id": 3,
+      "name": "Chaqueta Biker",
+      "price": 135000,
+      "old": 160000,
+      "cat": "abrigos",
+      "img": "chaqueta-biker.jpg",
+      "badge": "",
+      "sold": 410,
+      "order": 1,
+      "colors": [
+        [
+          "Café",
+          "#9a5b36"
+        ]
+      ],
+      "desc": "Chaqueta estilo biker con cierres y corte ajustado. Le da carácter a cualquier look."
+    },
+    {
+      "id": 4,
+      "name": "Top Cuello Cuadrado",
+      "price": 32000,
+      "old": 40000,
+      "cat": "tops",
+      "img": "top-amarillo.jpg",
+      "badge": "Nuevo",
+      "sold": 980,
+      "order": 13,
+      "colors": [
+        [
+          "Amarillo",
+          "#F3E3A0"
+        ],
+        [
+          "Negro",
+          "#2a2a33"
+        ]
+      ],
+      "desc": "Top de manga corta con cuello cuadrado y tela elástica que se ajusta al cuerpo."
+    },
+    {
+      "id": 5,
+      "name": "Top Halter Floral",
+      "price": 17989,
+      "old": 25900,
+      "cat": "tops",
+      "img": "top-halter-floral.jpg",
+      "badge": "Más vendido",
+      "sold": 1530,
+      "order": 12,
+      "colors": [
+        [
+          "Beige claro",
+          "#F1E8D6"
+        ]
+      ],
+      "desc": "Top halter con textura floral y cintas para ajustar. Ideal con jeans o falda."
+    },
+    {
+      "id": 6,
+      "name": "Vestido Cuello Cuadrado",
+      "price": 78000,
+      "old": 95000,
+      "cat": "vestidos",
+      "img": "vestido-cuello-cuadrado.jpg",
+      "badge": "",
+      "sold": 720,
+      "order": 6,
+      "colors": [
+        [
+          "Negro",
+          "#2a2a33"
+        ]
+      ],
+      "desc": "Mini vestido de manga larga con cuello cuadrado y cinturón de cadena."
+    },
+    {
+      "id": 7,
+      "name": "Vestido Strapless Asimétrico",
+      "price": 82000,
+      "old": 0,
+      "cat": "vestidos",
+      "img": "vestido-strapless.jpg",
+      "badge": "Nuevo",
+      "sold": 540,
+      "order": 10,
+      "colors": [
+        [
+          "Negro",
+          "#2a2a33"
+        ]
+      ],
+      "desc": "Vestido strapless con corte asimétrico, amarre lateral y cinturón de cadena."
+    },
+    {
+      "id": 8,
+      "name": "Conjunto Suéter y Falda Volantes",
+      "price": 96000,
+      "old": 115000,
+      "cat": "conjuntos",
+      "img": "conjunto-sueter-falda.jpg",
+      "badge": "",
+      "sold": 610,
+      "order": 5,
+      "colors": [
+        [
+          "Negro y blanco",
+          "#2a2a33"
+        ]
+      ],
+      "desc": "Suéter negro de manga amplia con falda blanca de volantes en tiro alto."
+    },
+    {
+      "id": 9,
+      "name": "Conjunto Cárdigan Margaritas",
+      "price": 99000,
+      "old": 120000,
+      "cat": "conjuntos",
+      "img": "conjunto-cardigan-flores.jpg",
+      "badge": "Más vendido",
+      "sold": 1100,
+      "order": 8,
+      "colors": [
+        [
+          "Blanco y negro",
+          "#ffffff"
+        ]
+      ],
+      "desc": "Cárdigan tejido con margaritas y minifalda negra con vuelo."
+    },
+    {
+      "id": 10,
+      "name": "Conjunto Top y Pantalón Campana",
+      "price": 88000,
+      "old": 0,
+      "cat": "conjuntos",
+      "img": "conjunto-campana.jpg",
+      "badge": "Nuevo",
+      "sold": 430,
+      "order": 11,
+      "colors": [
+        [
+          "Negro",
+          "#2a2a33"
+        ]
+      ],
+      "desc": "Top strapless con cinturón de cadena y pantalón campana que alarga la figura."
+    },
+    {
+      "id": 11,
+      "name": "Pantalón Print Zebra",
+      "price": 79000,
+      "old": 92000,
+      "cat": "bottoms",
+      "img": "pantalon-zebra.jpg",
+      "badge": "",
+      "sold": 690,
+      "order": 7,
+      "colors": [
+        [
+          "Zebra",
+          "#e8e8e8"
+        ]
+      ],
+      "desc": "Pantalón de pierna ancha con estampado zebra. Combina con tops lisos y chaquetas cortas."
+    },
+    {
+      "id": 12,
+      "name": "Corsé con Falda Volantes",
+      "price": 92000,
+      "old": 0,
+      "cat": "conjuntos",
+      "img": "top-corse-falda.jpg",
+      "badge": "Nuevo",
+      "sold": 380,
+      "order": 9,
+      "colors": [
+        [
+          "Negro",
+          "#2a2a33"
+        ]
+      ],
+      "desc": "Top tipo corsé con cordones frontales y falda corta de volantes."
+    },
+    {
+      "id": 13,
+      "name": "Falda Zebra Drapeada",
+      "price": 69000,
+      "old": 0,
+      "cat": "bottoms",
+      "img": "falda-zebra.jpg",
+      "badge": "",
+      "sold": 520,
+      "order": 4,
+      "colors": [
+        [
+          "Zebra",
+          "#e8e8e8"
+        ]
+      ],
+      "desc": "Falda drapeada con cordón lateral y estampado zebra en blanco y negro."
+    }
+  ]
+}
