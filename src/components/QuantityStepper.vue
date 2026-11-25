@@ -1,5 +1,4 @@
 <script setup>
-// Componente con v-model (enlace bidireccional): el padre y el hijo comparten el valor.
 const cantidad = defineModel({ type: Number, default: 1 })
 const props = defineProps({ min: { type: Number, default: 1 }, max: { type: Number, default: 10 } })
 function cambiar(delta) {

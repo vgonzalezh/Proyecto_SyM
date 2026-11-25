@@ -2,9 +2,7 @@
 import { ref } from 'vue'
 import { RouterLink } from 'vue-router'
 
-// Recibe el total de prendas del carrito (props: datos hacia el hijo)
 defineProps({ totalUnidades: { type: Number, default: 0 } })
-// Avisa al padre cuando se navega (eventos personalizados: datos hacia el padre)
 const emit = defineEmits(['navegar'])
 
 const menu = ref(false)

@@ -1,9 +1,9 @@
 # Stilo & Moda — Entrega final con Vue 3
 
-SPA de tienda de ropa juvenil migrada desde la versión HTML/CSS/JavaScript del Avance 2.
+Tienda de ropa juvenil hecha como SPA con Vue.js, Vue Router y Vite.
 
 ## 🌐 Aplicación en producción
-**URL:** https://vgonzalezh.github.io/Proyecto_SyM/  
+**URL:** https://vgonzalezh.github.io/Proyecto_SyM/
 
 **Repositorio:** https://github.com/vgonzalezh/Proyecto_SyM
 
@@ -27,6 +27,7 @@ npm run dev
 ```bash
 npm run build
 npm run preview
+```
 
 La carpeta generada es `dist/`.
 
@@ -40,6 +41,7 @@ src/
   components/NavBar.vue          (barra de navegación: props + emit)
   components/ProductCard.vue     (tarjeta: props + emit)
   components/QuantityStepper.vue (v-model personalizado)
+  components/ConfirmModal.vue    (ventana de confirmación)
   router/index.js
   services/api.js
   services/storage.js
@@ -81,9 +83,6 @@ public/
 - `?simular=500`: simula un error del servidor para catálogo y envío del formulario.
 
 El formulario usa JSONPlaceholder como servicio REST público de demostración. No procesa pagos reales ni registra compras en un servidor; el carrito y los pedidos se guardan localmente en el navegador.
-
-## Avance 2 conservado
-La carpeta `Avc/` es la versión JavaScript con `app.js`, `api.js`, `storage.js`, `validacion.js`, `data.json`, estilos e imágenes. La versión Vue es la implementación
 
 ## Automatización del despliegue
 Se incluye `.github/workflows/deploy.yml`. En GitHub, entra a **Settings → Pages** y selecciona **GitHub Actions** como fuente. Al subir cambios a `main`, la acción instala dependencias, genera `dist` y publica la aplicación.
